@@ -25,7 +25,7 @@
           </b-row>
         </b-col>
       </b-row>
-      <b-button class=menu>Menu</b-button>
+      <Menu></Menu>
     </b-container>
     <b-container class="section menu-section">
       <b-row align-h="between">
@@ -102,7 +102,175 @@
       </b-row>
       <b-row>
         <b-col>
-          <b-icon-arrow-down></b-icon-arrow-down>
+          <b-icon icon=arrow-down font-scale=5></b-icon>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container class="section services-section">
+      <b-row>
+        <b-col>
+          <h2>Services</h2>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <h4>Mind</h4>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Mind</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Mind</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Mind</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Mind</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+        </b-col>
+        <b-col>
+          <h4>Body</h4>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Body</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Body</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Body</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Body</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+        </b-col>
+        <b-col>
+          <h4>Soul</h4>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Soul</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Soul</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Soul</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+          <b-row>
+            <b-col>
+              <h4 class="mb-0">Soul</h4>
+              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
+            </b-col>
+          </b-row>
+        </b-col>
+      </b-row>
+    </b-container>
+    <b-container class="section resource-section">
+      <b-row>
+        <b-col>
+          <h2>Wellspring of Resources</h2>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <h3 class=mb-0>Resource</h3>
+          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
+        </b-col>
+        <b-col>
+          <h3 class=mb-0>Resource</h3>
+          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
+        </b-col>
+        <b-col>
+          <h3 class=mb-0>Resource</h3>
+          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <h3 class=mb-0>Resource</h3>
+          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
+        </b-col>
+        <b-col>
+          <h3 class=mb-0>Resource</h3>
+          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
+        </b-col>
+        <b-col>
+          <h3 class=mb-0>Resource</h3>
+          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
+        </b-col>
+      </b-row>
+      <b-icon-arrow-down font-scale="5"></b-icon-arrow-down>
+    </b-container>
+    <b-container class="section about-section">
+      <b-row>
+        <b-col><img src="" alt=""></b-col>
+        <b-col>
+          <h3>What is RIVRE of SOMA</h3>
+          <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iusto minima eum nam numquam cupiditate nobis cumque sunt nulla adipisci iste consequatur nostrum rem itaque ex, beatae quidem quam dolor veritatis.</p>
+        </b-col>
+      </b-row>
+      <b-icon-arrow-down font-scale="5"></b-icon-arrow-down>
+    </b-container>
+    <b-container class="section footer-section">
+      <b-row>
+        <b-col>
+          <b-link to=/>Support</b-link>
+        </b-col>
+        <b-col>
+          <b-link to=/>Blog</b-link>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <b-link to="/">Contact</b-link>
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+          <b-link to="/">Art</b-link>
+        </b-col>
+        <b-col>
+          <h6>Copyright Froconic Design 2021</h6>
+        </b-col>
+        <b-col>
+          <b-icon-arrow-up font-scale="2"></b-icon-arrow-up>
+        </b-col>
+        <b-col>
+          <h6>Handcrafted By Froconic Design</h6>
+        </b-col>
+        <b-col>
+          <b-link to="/">Wellspring</b-link>
         </b-col>
       </b-row>
     </b-container>
@@ -111,17 +279,13 @@
 
 <script>
   // @ is an alias to /src
-
+import Menu from '../components/Menu.vue'
   export default {
     name: 'Home',
-    components: {}
+    components: {Menu}
   }
 </script>
 
 <style>
-  .menu {
-    position: fixed;
-    right: 0%;
-    top: 50%
-  }
+
 </style>
