@@ -25,7 +25,7 @@
           </b-row>
         </b-col>
       </b-row>
-      <Menu></Menu>
+      <Navmenu></Navmenu>
     </b-container>
     <b-container class="section menu-section">
       <b-row align-h="between">
@@ -279,10 +279,10 @@
 
 <script>
   // @ is an alias to /src
-import Menu from '../components/Menu.vue'
+import Navmenu from '../components/Navmenu.vue'
   export default {
     name: 'Home',
-    components: {Menu}
+    components: {Navmenu}
   }
 </script>
 
