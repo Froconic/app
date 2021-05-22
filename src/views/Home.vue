@@ -1,32 +1,7 @@
 <template>
-  <div class="home">
-    <b-container class="section hero-section">
-      <b-row>
-        <b-col>
-          <b-row>
-            <b-col>
-              <h1>RIVRE of SOMA</h1>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h1>Real Insights eVolve REality</h1>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <b-icon icon=eye-fill font-scale=8 animation='fade'></b-icon>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <b-icon icon=arrow-down font-scale=5></b-icon>
-            </b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-      <Navmenu></Navmenu>
-    </b-container>
+  <div class="home" v-b-toggle.sidebar-right>
+    <Navmenu></Navmenu>
+    <Hero></Hero>
     <b-container class="section menu-section">
       <b-row align-h="between">
         <b-col>
@@ -279,13 +254,16 @@
 
 <script>
   // @ is an alias to /src
+import Hero from '../components/Hero.vue'
 import Navmenu from '../components/Navmenu.vue'
   export default {
     name: 'Home',
-    components: {Navmenu}
+    components: {Hero, Navmenu}
   }
 </script>
 
 <style>
-
+.section {
+  height: 100vh;
+}
 </style>
