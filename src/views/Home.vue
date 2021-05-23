@@ -1,33 +1,9 @@
 <template>
-  <div class="home" v-b-toggle.sidebar-right>
+  <div class="home">
     <Navmenu></Navmenu>
     <Hero></Hero>
-    <b-container class="section menu-section">
-      <b-row align-h="between">
-        <b-col>
-          <b-link to= />Services</b-link>
-        </b-col>
-        <b-col>
-          <b-link to= />Blog</b-link>
-        </b-col>
-      </b-row>
-      <b-row align-h="center">
-        <b-col>
-          <b-link to= />About</b-link>
-        </b-col>
-      </b-row>
-      <b-row align-h="between">
-        <b-col>
-          <b-link to= />Art</b-link>
-        </b-col>
-        <b-col>
-          <b-link to= />Wellspring</b-link>
-        </b-col>
-      </b-row>
-      <b-row align-h="center">
-        <b-icon-arrow-down font-scale=5></b-icon-arrow-down>
-      </b-row>
-    </b-container>
+    <Anchormenu></Anchormenu>
+    <Blogsection></Blogsection>
     <b-container class="section blog-section">
       <b-row align-h=center>
         <b-col>
@@ -256,9 +232,11 @@
   // @ is an alias to /src
 import Hero from '../components/Hero.vue'
 import Navmenu from '../components/Navmenu.vue'
+import Anchormenu from '../components/Anchormenu.vue'
+import Blogsection from '../components/Blogsection.vue'
   export default {
     name: 'Home',
-    components: {Hero, Navmenu}
+    components: {Hero, Navmenu, Anchormenu, Blogsection}
   }
 </script>
 
