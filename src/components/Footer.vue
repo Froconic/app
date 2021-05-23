@@ -21,7 +21,7 @@
           <h6>Copyright Froconic Design 2021</h6>
         </b-col>
         <b-col>
-          <b-icon-arrow-up font-scale="2"></b-icon-arrow-up>
+          <b-link href="#hero"><b-icon-arrow-up font-scale="2"></b-icon-arrow-up></b-link>
         </b-col>
         <b-col>
           <h6>Handcrafted By Froconic Design</h6>

@@ -22,7 +22,9 @@
         </b-col>
       </b-row>
       <b-row align-h="center">
-        <b-icon-arrow-down font-scale=5></b-icon-arrow-down>
+        <b-link href="#blog-section">
+                <b-icon align-self="end" class="anchor-arrow" icon=arrow-down font-scale=5></b-icon>
+              </b-link>
       </b-row>
     </b-container>
 </template>

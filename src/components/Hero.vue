@@ -1,6 +1,5 @@
 <template>
-  <div class="hero">
-    <Navmenu></Navmenu>
+  <div id="hero">
     <b-container class="section hero-section">
       <b-row>
         <b-col>
@@ -14,9 +13,9 @@
               <h1>Real Insights eVolve REality</h1>
             </b-col>
           </b-row>
-          <b-row class=mb-5>
-            <b-col>
-              <b-icon class="logo-icon" icon=eye-fill font-scale=8 animation='fade'></b-icon>
+          <b-row align-v="baseline" class="mb-5 justify-content-center">
+            <b-col cols="auto" class="w-50">
+              <b-img src="../assets/image/logo.svg" alt="Logo" fluid-grow width="100%" center></b-img>
             </b-col>
           </b-row>
           <b-row>
@@ -45,12 +44,14 @@
 
 
 <style>
-  .logo-icon {
-    align-self: center;
+  .logo {
+    width: 100% \9;
   }
 
   .anchor-arrow {
     position: relative;
     bottom: 0;
+    color:#000A14;
   }
+
 </style>
