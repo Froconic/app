@@ -1,5 +1,5 @@
 <template>
-      <b-container class="section resource-section">
+      <b-container id="resource-section" class="section resource-section">
       <b-row>
         <b-col>
           <h2>Wellspring of Resources</h2>

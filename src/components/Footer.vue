@@ -1,5 +1,5 @@
 <template>
-      <b-container class="section footer-section">
+      <b-container id="footer" class="section footer-section">
       <b-row>
         <b-col>
           <b-link to=/>Support</b-link>

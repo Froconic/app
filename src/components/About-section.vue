@@ -1,5 +1,5 @@
 <template>
-      <b-container class="section about-section">
+      <b-container id="about-section" class="section about-section">
       <b-row>
         <b-col><img src="" alt=""></b-col>
         <b-col>
