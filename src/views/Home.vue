@@ -4,185 +4,9 @@
     <Hero></Hero>
     <Anchormenu></Anchormenu>
     <Blogsection></Blogsection>
-    <b-container class="section blog-section">
-      <b-row align-h=center>
-        <b-col>
-          <h2>Blog</h2>
-        </b-col>
-      </b-row>
-      <b-row class=mb-5>
-        <b-col>
-          <h3>Featured</h3>
-          <b-row>
-            <b-col>
-              <b-card title=Title sub-title=Category>
-                <h6>Date</h6>
-                <b-button variant=outline>
-                  <b-icon-box-arrow-in-right></b-icon-box-arrow-in-right>
-                </b-button>
-              </b-card>
-            </b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <b-card title=Title sub-title=Category>
-            <h6>Date</h6>
-            <b-button variant=outline>
-              <b-icon-box-arrow-in-right></b-icon-box-arrow-in-right>
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card title=Title sub-title=Category>
-            <h6>Date</h6>
-            <b-button variant=outline>
-              <b-icon-box-arrow-in-right></b-icon-box-arrow-in-right>
-            </b-button>
-          </b-card>
-        </b-col>
-        <b-col>
-          <b-card title=Title sub-title=Category>
-            <h6>Date</h6>
-            <b-button variant=outline>
-              <b-icon-box-arrow-in-right></b-icon-box-arrow-in-right>
-            </b-button>
-          </b-card>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <b-icon icon=arrow-down font-scale=5></b-icon>
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container class="section services-section">
-      <b-row>
-        <b-col>
-          <h2>Services</h2>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <h4>Mind</h4>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Mind</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Mind</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Mind</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Mind</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-        </b-col>
-        <b-col>
-          <h4>Body</h4>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Body</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Body</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Body</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Body</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-        </b-col>
-        <b-col>
-          <h4>Soul</h4>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Soul</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Soul</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Soul</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-          <b-row>
-            <b-col>
-              <h4 class="mb-0">Soul</h4>
-              <b-icon-arrow-down font-scale=1.5></b-icon-arrow-down>
-            </b-col>
-          </b-row>
-        </b-col>
-      </b-row>
-    </b-container>
-    <b-container class="section resource-section">
-      <b-row>
-        <b-col>
-          <h2>Wellspring of Resources</h2>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <h3 class=mb-0>Resource</h3>
-          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
-        </b-col>
-        <b-col>
-          <h3 class=mb-0>Resource</h3>
-          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
-        </b-col>
-        <b-col>
-          <h3 class=mb-0>Resource</h3>
-          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col>
-          <h3 class=mb-0>Resource</h3>
-          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
-        </b-col>
-        <b-col>
-          <h3 class=mb-0>Resource</h3>
-          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
-        </b-col>
-        <b-col>
-          <h3 class=mb-0>Resource</h3>
-          <b-icon-arrow-down font-scale="2"></b-icon-arrow-down>
-        </b-col>
-      </b-row>
-      <b-icon-arrow-down font-scale="5"></b-icon-arrow-down>
-    </b-container>
+    <Servicessection></Servicessection>
+    <Resourcesection></Resourcesection>
+
     <b-container class="section about-section">
       <b-row>
         <b-col><img src="" alt=""></b-col>
@@ -231,12 +55,14 @@
 <script>
   // @ is an alias to /src
 import Hero from '../components/Hero.vue'
-import Navmenu from '../components/Navmenu.vue'
-import Anchormenu from '../components/Anchormenu.vue'
-import Blogsection from '../components/Blogsection.vue'
+import Navmenu from '../components/Nav-menu.vue'
+import Anchormenu from '../components/Anchor-menu.vue'
+import Blogsection from '../components/Blog-section.vue'
+import Servicessection from '../components/Services-section.vue'
+import Resourcesection from '../components/Resources-section.vue'
   export default {
     name: 'Home',
-    components: {Hero, Navmenu, Anchormenu, Blogsection}
+    components: {Hero, Navmenu, Anchormenu, Blogsection, Servicessection, Resourcesection}
   }
 </script>
 
