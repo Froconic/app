@@ -45,4 +45,8 @@ body {
   color:#000a14;
 }
 
+a {
+  color:#000a14;
+}
+
 </style>

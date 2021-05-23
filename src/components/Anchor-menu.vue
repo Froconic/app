@@ -1,7 +1,7 @@
 <template>
-  <b-container id="menu-section" class="section menu-section">
-      <b-row align-h="between">
-        <b-col>
+  <b-container fluid="xl" id="menu-section" class="section menu-section">
+      <b-row align-content="between" cols-sm="2">
+        <b-col w-50 class="px-5">
           <b-link to="#services-section" />Services</b-link>
         </b-col>
         <b-col>
@@ -36,5 +36,9 @@ export default {
 </script>
 
 <style>
+
+a {
+  color: black
+}
 
 </style>
