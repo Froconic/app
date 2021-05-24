@@ -1,5 +1,5 @@
 <template>
-      <b-container class="section blog-section">
+      <b-container id="blog-section" class="section blog-section">
       <b-row align-h=center>
         <b-col>
           <h2>Blog</h2>

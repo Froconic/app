@@ -30,6 +30,10 @@ import Footer from '../components/Footer.vue'
 </script>
 
 <style>
+html {
+  scroll-behavior: smooth;
+}
+
 .section {
   height: 100vh;
 }
@@ -38,7 +42,6 @@ body {
   font-size: 16px;
   color:#f4f5f6;
   background-color: #5CA8FF;
-;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
@@ -47,6 +50,19 @@ body {
 
 a {
   color:#000a14;
+}
+
+.anchor-arrow {
+  position: relative;
+  bottom: 0;
+  color:#000A14;
+  font-size: 1rem;
+  height: 100%;
+}
+
+
+.anchor-arrow:hover {
+  color:#f4f5f6;
 }
 
 </style>
