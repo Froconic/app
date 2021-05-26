@@ -35,7 +35,8 @@ html {
 }
 
 .section {
-  height: 100vh;
+  height: 100%;
+  margin-bottom: 3rem;
 }
 
 body {
