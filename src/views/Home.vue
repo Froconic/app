@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Navmenu></Navmenu>
+    <!-- <Navmenu></Navmenu> -->
     <Hero></Hero>
     <Anchormenu></Anchormenu>
     <Blogsection></Blogsection>
@@ -43,6 +43,7 @@ body {
   font-size: 16px;
   color:#F4F5F6;
   background-color: #2388ff;
+  font-family: ;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {

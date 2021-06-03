@@ -13,15 +13,15 @@
               <h1>Real Insights eVolve REality</h1>
             </b-col>
           </b-row>
-          <b-row align-v="baseline" class="mb-5 justify-content-center">
-            <b-col cols="auto" class="w-50">
-              <b-img src="../assets/image/logo.svg" alt="Logo" fluid-grow width="100%" center></b-img>
+          <b-row align-v="baseline" class="mb-n4 mb-sm-1 justify-content-center">
+            <b-col cols="auto" class="logo">
+              <b-img src="../assets/image/logo.svg" alt="Logo" fluid-grow center></b-img>
             </b-col>
           </b-row>
           <b-row>
             <b-col>
               <b-link href="#menu-section">
-                <b-icon align-self="end" class="anchor-arrow mb-5" icon=arrow-down font-scale=5></b-icon>
+                <b-icon-arrow-down align-self="end" class="anchor-arrow mb-5" font-scale=5></b-icon-arrow-down>
               </b-link>
             </b-col>
           </b-row>
@@ -37,7 +37,7 @@
   export default {
     name: 'Home',
     components: {
-      
+
     }
   }
 </script>
@@ -45,8 +45,13 @@
 
 <style>
   .logo {
-    width: 100% \9;
+    width: 50%;
   }
 
+  @media screen and (min-width: 576px) {
+    .logo {
+      width: 25%;
+    }
+  }
 
 </style>

@@ -1,24 +1,24 @@
 <template>
-  <b-container fluid="xl" id="menu-section" class="section menu-section">
-      <b-row align-v="baseline" align-content="between" cols-sm="2" class="mb-5 anchor-row">
-        <b-col cols-sm=8 w-50 class="px-5 test">
-          <a class="anchor-link hvr-hang" href="#services-section">Services</a>
+  <b-container fluid id="menu-section" class="section menu-section">
+      <b-row align-v="baseline" align-content="between" cols-sm="2" class="mb-sm-5 anchor-row">
+        <b-col cols=12 w-50 class="px-5 test">
+          <a class="anchor-link hvr-hang mb-3" href="#services-section">Services</a>
         </b-col>
         <b-col cols-sm=8>
-          <a class="anchor-link hvr-hang" href="#art-section">Art</a>
+          <a class="anchor-link hvr-hang mb-3" href="#art-section">Art</a>
         </b-col>
       </b-row>
-      <b-row align-v="baseline" align-h="center" class="mb-5 anchor-row">
+      <b-row align-v="baseline" align-h="center" class="mb-sm-5 anchor-row">
         <b-col>
-          <a class="anchor-link hvr-hang" href="#blog-section">Blog</a>
+          <a class="anchor-link hvr-hang mb-3" href="#blog-section">Blog</a>
         </b-col>
       </b-row>
-      <b-row align-v="baseline" align-h="between" class="mb-5 anchor-row">
+      <b-row align-v="baseline" align-h="between" cols="1" cols-sm="2" class="mb-3 anchor-row">
         <b-col cols-sm=8>
-          <a class="anchor-link hvr-hang" href="#resource-section">Resources</a>
+          <a class="anchor-link hvr-hang mb-3" href="#resource-section">Resources</a>
         </b-col>
-        <b-col cols-sm=8 >
-          <a class="anchor-link hvr-hang" href="#about-section">About</a>
+        <b-col cols-sm=8 class="mb-5">
+          <a class="anchor-link hvr-hang mb-3" href="#about-section">About</a>
         </b-col>
       </b-row>
       <b-row align-v="baseline" align-h="center">
@@ -36,6 +36,12 @@ export default {
 </script>
 
 <style>
+
+@media screen and (min-width:768){
+  .anchor-link{
+    font-size: 
+  }
+}
 
 .anchor-link {
   color: #000a14;
