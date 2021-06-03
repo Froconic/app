@@ -21,7 +21,7 @@
           <b-row>
             <b-col>
               <b-link href="#menu-section">
-                <b-icon align-self="end" class="anchor-arrow" icon=arrow-down font-scale=5></b-icon>
+                <b-icon align-self="end" class="anchor-arrow mb-5" icon=arrow-down font-scale=5></b-icon>
               </b-link>
             </b-col>
           </b-row>

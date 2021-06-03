@@ -61,7 +61,7 @@
     <b-row>
       <b-col>
         <b-link href="#art-section">
-          <b-icon align-self="end" class="anchor-arrow" icon=arrow-down font-scale=5></b-icon>
+          <b-icon align-self="end" class="anchor-arrow mb-5" icon=arrow-down font-scale=5></b-icon>
         </b-link>
       </b-col>
     </b-row>
@@ -71,50 +71,5 @@
   export default {}
 </script>
 <style>
-  .card {
-    background: rgba(0, 0, 0, 0.15);
-    -webkit-box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.75);
-    -moz-box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.75);
-    box-shadow: 0px 0px 25px 8px rgba(0, 0, 0, 0.75);
-    backdrop-filter: blur(12.5px);
-    -webkit-backdrop-filter: blur(12.5px);
-    border-radius: 10px;
-    height: 100%;
-  }
 
-  .card-body {
-    background: rgba(0, 0, 0, 1);
-    background: -moz-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(0, 0, 0, 0.96) 7%, rgba(255, 255, 255, 0.42) 100%);
-    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(0, 0, 0, 1)), color-stop(0%, rgba(112, 112, 112, 1)), color-stop(7%, rgba(0, 0, 0, 0.96)), color-stop(100%, rgba(255, 255, 255, 0.42)));
-    background: -webkit-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(0, 0, 0, 0.96) 7%, rgba(255, 255, 255, 0.42) 100%);
-    background: -o-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(0, 0, 0, 0.96) 7%, rgba(255, 255, 255, 0.42) 100%);
-    background: -ms-linear-gradient(top, rgba(0, 0, 0, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(0, 0, 0, 0.96) 7%, rgba(255, 255, 255, 0.42) 100%);
-    background: linear-gradient(to bottom, rgba(0, 0, 0, 1) 0%, rgba(112, 112, 112, 1) 0%, rgba(0, 0, 0, 0.96) 7%, rgba(255, 255, 255, 0.42) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#000000', endColorstr='#ffffff', GradientType=0);
-  }
-
-  .card-title {
-    color: #EBF4FF;
-  }
-
-  .card-subtitle {
-    color: #001429;
-  }
-
-  .card-text {
-    color: #F4F5F6;
-  }
-
-  .card-date {
-    color: #F4F5F6;
-  }
-
-  .card-btn {
-    color: #F4F5F6;
-  }
-
-  .blog-section {
-    height: 100%;
-  }
-  
 </style>
