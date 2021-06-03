@@ -1,14 +1,27 @@
 <template>
   <div v-b-toggle.open-menu id="app">
-    <router-view/>
+    <router-view />
   </div>
 </template>
 
 
 <style>
+  @font-face {
+    font-family: "Odin Round";
+    src: url('https://github.com/Froconic/app/blob/feature%2Fhome/src/assets/fonts/odin-rounded.regular.otf')
+  }
+
+  @font-face {
+    font-family: "Typo Round";
+    src: url('https://github.com/Froconic/app/blob/feature%2Fhome/src/assets/fonts/typo-round.bold-demo.otf')
+  }
+
   body {
-  background-color:#2388FF;
-}
+    font-size: 16px;
+    color: #F4F5F6;
+    background-color: #2388ff;
+    font-family: 'Work Sans', sans-serif;
+  }
 
   a {
     color: #F4F5F6;
@@ -19,23 +32,22 @@
     text-decoration: none;
   }
 
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #F4F5F6;
-  cursor: default;
-  width: 100vw;
-  margin: 0;
-  overflow-x: none;
-}
+  #app {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    text-align: center;
+    color: #F4F5F6;
+    cursor: default;
+    width: 100vw;
+    margin: 0;
+    overflow-x: none;
+  }
 
-#nav a.router-link-exact-active {
-  color: #EBF4FF;
-}
+  #nav a.router-link-exact-active {
+    color: #EBF4FF;
+  }
 
-.home {
-  /* width: 100%; */
-}
+  .home {
+    /* width: 100%; */
+  }
 </style>

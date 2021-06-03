@@ -30,6 +30,8 @@ import Footer from '../components/Footer.vue'
 </script>
 
 <style>
+
+
 html {
   scroll-behavior: smooth;
 }
@@ -39,18 +41,18 @@ html {
   margin-bottom: 3rem;
 }
 
-body {
-  font-size: 16px;
-  color:#F4F5F6;
-  background-color: #2388ff;
-  font-family: ;
+h1, .h1 {
+  font-weight: 700;
 }
 
 .h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
   color:#000a14;
+  font-family: 'Overlock', cursive;
 }
 
 a {
+  font-family: 'Overlock', sans-serif;
+  font-weight: 700;
   color:#000a14;
 }
 
