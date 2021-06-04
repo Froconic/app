@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Navmenu></Navmenu>
+    <!-- <Navmenu></Navmenu> -->
     <Hero></Hero>
     <Anchormenu></Anchormenu>
     <Blogsection></Blogsection>
