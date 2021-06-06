@@ -47,7 +47,22 @@
     color: #EBF4FF;
   }
 
-  .home {
-    /* width: 100%; */
+    .grid {
+    display: grid;
+    grid-auto-flow: row;
+    grid-gap: 2em;
+    margin: 5rem auto;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
   }
+
+  @media screen and (min-width:768px) {
+    .grid {
+      grid-template-columns: repeat(3, 33%);
+      grid-auto-flow: column;
+    }
+  }
+
+
 </style>

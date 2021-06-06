@@ -1,12 +1,12 @@
 <template>
   <b-container id="services-section" class="section services-section">
-    <b-row>
+    <b-row align-v="center">
       <b-col>
         <h2>Services</h2>
       </b-col>
     </b-row>
-    <b-row>
-      <b-col>
+    <b-row cols="1" cols-md="3">
+      <b-col fluid>
         <h4 class="mb-5">Mind</h4>
         <b-row>
           <b-col>
@@ -119,7 +119,7 @@
             <div class="accordion">
               <b-button class="accordion-btn" v-b-toggle.accordion-10 variant="outline"><b-icon-arrow-down font-scale="1.5"></b-icon-arrow-down></b-button>
               <b-collapse id="accordion-10" role="tablist">
-                <p role="tab">Boop</p>
+                <p role="tab">Id occaecat dolor consectetur in. Dolore id minim exercitation aliqua irure laborum duis. Fugiat reprehenderit magna culpa ipsum consequat nisi. Sunt fugiat cillum elit do occaecat ullamco aliqua. Magna consectetur irure proident quis.</p>
               </b-collapse>
             </div>
           </b-col>
@@ -162,7 +162,6 @@
 <script>
   export default {
     methods: {
-      // openMenu();
     }
   }
 </script>

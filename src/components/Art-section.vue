@@ -23,8 +23,8 @@
         </b-row>
       </b-col>
     </b-row>
-    <b-row class="mb-5">
-      <b-col>
+    <b-container class="grid">
+      <b-container>
         <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
           <b-card-text>
             Ut id sit veniam incididunt cillum eu cillum sunt.
@@ -34,8 +34,8 @@
             </b-button>
           </b-card-text>
         </b-card>
-      </b-col>
-      <b-col>
+      </b-container>
+      <b-container>
         <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
           <b-card-text>
             Ut id sit veniam incididunt cillum eu cillum sunt.
@@ -45,8 +45,8 @@
             </b-button>
           </b-card-text>
         </b-card>
-      </b-col>
-      <b-col>
+      </b-container>
+      <b-container>
         <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
           <b-card-text>
             Ut id sit veniam incididunt cillum eu cillum sunt.
@@ -56,8 +56,43 @@
             </b-button>
           </b-card-text>
         </b-card>
-      </b-col>
-    </b-row>
+      </b-container>
+    </b-container>
+    <b-container class="grid">
+      <b-container>
+        <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
+          <b-card-text>
+            Ut id sit veniam incididunt cillum eu cillum sunt.
+            <h6 class="card-date">Date</h6>
+            <b-button href="#" variant=outline>
+              <b-icon-box-arrow-in-right class="card-btn"></b-icon-box-arrow-in-right>
+            </b-button>
+          </b-card-text>
+        </b-card>
+      </b-container>
+      <b-container>
+        <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
+          <b-card-text>
+            Ut id sit veniam incididunt cillum eu cillum sunt.
+            <h6 class="card-date">Date</h6>
+            <b-button href="#" variant=outline>
+              <b-icon-box-arrow-in-right class="card-btn"></b-icon-box-arrow-in-right>
+            </b-button>
+          </b-card-text>
+        </b-card>
+      </b-container>
+      <b-container>
+        <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
+          <b-card-text>
+            Ut id sit veniam incididunt cillum eu cillum sunt.
+            <h6 class="card-date">Date</h6>
+            <b-button href="#" variant=outline>
+              <b-icon-box-arrow-in-right class="card-btn"></b-icon-box-arrow-in-right>
+            </b-button>
+          </b-card-text>
+        </b-card>
+      </b-container>
+    </b-container>
     <b-row>
       <b-col>
         <b-link href="#services-section">
@@ -71,5 +106,4 @@
   export default {}
 </script>
 <style>
-
 </style>

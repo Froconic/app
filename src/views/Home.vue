@@ -111,4 +111,8 @@ a {
     color: #F4F5F6;
   }
 
+  .col {
+    height: 100%;
+  }
+
 </style>
