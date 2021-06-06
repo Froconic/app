@@ -1,6 +1,6 @@
 <template>
   <div class="home">
-    <Navmenu></Navmenu>
+    <!-- <Navmenu></Navmenu> -->
     <Hero></Hero>
     <Anchormenu></Anchormenu>
     <Blogsection></Blogsection>
@@ -109,6 +109,10 @@ a {
 
   .card-btn {
     color: #F4F5F6;
+  }
+
+  .col {
+    height: 100%;
   }
 
 </style>

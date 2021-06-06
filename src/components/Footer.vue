@@ -1,7 +1,23 @@
 <template>
   <b-container fluid id="footer" class="section footer-section">
-    <b-container fluid class="footer-container">
-      <b-row>
+    <b-container fluid class="footer-grid">
+      <b-container class="upper-left-cell">
+        <b-link to="/">Blog</b-link>
+      </b-container>
+      <b-container class="upper-right-cell">
+        <b-link to="/">Art</b-link>
+      </b-container>
+      <b-container class="middle-cell">
+        <b-link to="/">Contact</b-link>
+      </b-container>
+      <b-container class="lower-left-cell">
+        <b-link to="/">Services</b-link>
+      </b-container>
+      <b-container class="lower-right-cell">
+        <b-link to="/">Support</b-link>
+      </b-container>
+
+      <!-- <b-row cols="1">
         <b-col class="upper-left-link">
           <b-link to="/">Support</b-link>
         </b-col>
@@ -32,7 +48,7 @@
         <b-col class="bottom-right-link">
           <b-link to="/">Wellspring</b-link>
         </b-col>
-      </b-row>
+      </b-row> -->
     </b-container>
   </b-container>
 
@@ -49,20 +65,41 @@
     height: 40vh;
   }
 
+  .footer-grid {
+    display: grid;
+    grid-template-areas:
+    "upper-left . upper-right"
+    ". middle ." 
+    "lower-left . lower-right";
+  }
+
   .footer-container {
     position: relative;
     height: 100%;
     font-size: 2rem;
   }
 
-  .upper-left-link.col {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 40%;
+  .upper-left-cell {
+    grid-area: upper-left;
 }
 
-  .upper-right-link.col {
+  .upper-right-cell {
+    grid-area: upper-right;
+}
+
+  .middle-cell {
+    grid-area: middle;
+}
+
+  .bottom-left-cell {
+    grid-area: lower-left;
+}
+
+  .bottom-right-cell {
+    grid-area: lower-right;
+}
+
+  /* .upper-right-link.col {
     position: absolute;
     top: 0;
     right: 0;
@@ -110,7 +147,7 @@
 
 .left-copyright span {
   font-size: .8rem;
-}
+} */
 
 
 .footer-arrow {

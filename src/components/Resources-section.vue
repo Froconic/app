@@ -5,7 +5,7 @@
           <h2>Wellspring of Resources</h2>
         </b-col>
       </b-row>
-      <b-row>
+      <b-row cols=1 col-md=3>
         <b-col>
           <h3 class=mb-0>Resource</h3>
           <div class="accordion">
@@ -34,7 +34,7 @@
             </div>
         </b-col>
       </b-row>
-      <b-row>
+      <b-row cols=1 col-md=3 class="mb-2 mb-sm-5">
         <b-col>
           <h3 class=mb-0>Resource</h3>
           <div class="accordion">
