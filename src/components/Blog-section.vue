@@ -23,7 +23,7 @@
         </b-row>
       </b-col>
     </b-row>
-    <b-container class="grid">
+    <b-container class="grid card-grid">
       <b-container>
         <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
           <b-card-text>
@@ -58,7 +58,7 @@
         </b-card>
       </b-container>
     </b-container>
-    <b-container class="grid">
+    <b-container class="grid card-grid">
       <b-container>
         <b-card title="Title" sub-title="Category" sub-title-text-variant="light" img-top img-src="https://picsum.photos/900/250/?image=3">
           <b-card-text>
