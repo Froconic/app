@@ -2,53 +2,31 @@
   <b-container fluid id="footer" class="section footer-section">
     <b-container fluid class="footer-grid">
       <b-container class="upper-left-cell">
-        <b-link to="/">Blog</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Blog</b-link>
       </b-container>
       <b-container class="upper-right-cell">
-        <b-link to="/">Art</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Art</b-link>
       </b-container>
       <b-container class="middle-cell">
-        <b-link to="/">Contact</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Contact</b-link>
       </b-container>
       <b-container class="lower-left-cell">
-        <b-link to="/">Services</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Services</b-link>
       </b-container>
       <b-container class="lower-right-cell">
-        <b-link to="/">Support</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Support</b-link>
       </b-container>
-
-      <!-- <b-row cols="1">
-        <b-col class="upper-left-link">
-          <b-link to="/">Support</b-link>
-        </b-col>
-        <b-col class="upper-right-link">
-          <b-link to="/">Blog</b-link>
-        </b-col>
-      </b-row>
-      <b-row>
-        <b-col align-v=center align-h=center class="middle-link">
-          <b-link to="/">Contact</b-link>
-        </b-col>
-      </b-row>
-      <b-row >
-        <b-col class="bottom-left-link">
-          <b-link to="/">Art</b-link>
-        </b-col>
-        <b-col class="left-copyright">
-          <span>Copyright Froconic Design <b-icon-dash-circle font-scale=".5"></b-icon-dash-circle> 2021</span>
-        </b-col>
-        <b-col class="footer-arrow">
-          <b-link href="#hero">
-            <b-icon-arrow-up align-self="end" class="anchor-arrow" font-scale="2"></b-icon-arrow-up>
-          </b-link>
-        </b-col>
-        <b-col class="right-copyright">
-          <span>Handcrafted By <b-link href="https://akiraallen.com/">Froconic Design</b-link></span>
-        </b-col>
-        <b-col class="bottom-right-link">
-          <b-link to="/">Wellspring</b-link>
-        </b-col>
-      </b-row> -->
+            <b-container class="copyright-left-cell mb-5 mb-md-0">
+        <span>Copyright Froconic Design <b-icon-dash-circle font-scale=".5"></b-icon-dash-circle> 2021</span>
+      </b-container>
+      <b-container class="copyright-right-cell mb-5 mb-md-0">
+        <span>Handcrafted By <b-link href="https://akiraallen.com/">Froconic Design</b-link></span>
+      </b-container>
+      <b-container class="arrow-cell">
+        <b-link href="#hero">
+          <b-icon-arrow-up class="anchor-arrow" font-scale="5"></b-icon-arrow-up>
+        </b-link>
+      </b-container>
     </b-container>
   </b-container>
 
@@ -67,94 +45,78 @@
 
   .footer-grid {
     display: grid;
-    grid-template-areas:
-    "upper-left . upper-right"
-    ". middle ." 
-    "lower-left . lower-right";
+    align-items: center;
+    grid-row: auto;
   }
 
-  .footer-container {
-    position: relative;
-    height: 100%;
-    font-size: 2rem;
+
+
+  @media screen and (min-width: 40rem) {
+    .footer-grid {
+      display: grid;
+      align-items: center;
+      grid-template-areas:
+        "upper-left upper left . upper-right upper right"
+        ". middle middle middle ."
+        "lower-left lower-left . lower-left lower-right"
+        "copyright-left arrow-cell copyright-right";
+    }
+
+    .footer-container {
+      position: relative;
+      height: 100%;
+      font-size: 2rem;
+    }
+
+    .upper-left-cell {
+      grid-area: upper-left;
+      grid-row: 1 / 3;
+      grid-column: 1 / 3;
+    }
+
+    .upper-right-cell {
+      grid-area: upper-right;
+      grid-row: 1 / 3;
+      grid-column: 2 / 4;
+    }
+
+    .middle-cell {
+      grid-area: middle;
+      grid-row: 2 / 4;
+      grid-column: 1 / 4;
+    }
+
+    .lower-left-cell {
+      grid-area: lower-left;
+      grid-row: 4 / 6;
+      grid-column: 1 / 3;
+
+    }
+
+    .lower-right-cell {
+      grid-area: lower-right;
+      grid-row: 4 / 6;
+      grid-column: 2 / 4;
+    }
+
+    .copyright-left-cell {
+      grid-area: copyright-left;
+      grid-row: 6 / 6;
+      grid-column: 1 / 2;
+    }
+
+    .copyright-right-cell {
+      grid-area: copyright-right;
+      grid-row: 6 / 6;
+      grid-column: 3 / 4;
+
+    }
+
+    .arrow-cell {
+      grid-area: arrow-cell;
+      grid-row: 6 / 6;
+      grid-column: 1 / 4;
+    }
+
   }
-
-  .upper-left-cell {
-    grid-area: upper-left;
-}
-
-  .upper-right-cell {
-    grid-area: upper-right;
-}
-
-  .middle-cell {
-    grid-area: middle;
-}
-
-  .bottom-left-cell {
-    grid-area: lower-left;
-}
-
-  .bottom-right-cell {
-    grid-area: lower-right;
-}
-
-  /* .upper-right-link.col {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 40%;
-}
-
-  .bottom-left-link.col {
-    position: absolute;
-    bottom: 10%;
-    left: 0;
-    width: 40%;
-}
-
-  .bottom-right-link.col {
-    position: absolute;
-    bottom: 10%;
-    right: 0;
-    width: 40%;
-}
-
-.middle-link {
-  position: absolute;
-  top: 25%;
-  bottom: 25%;
-  
-}
-
-.right-copyright {
-  position: absolute;
-  bottom: 0;
-  right: 20%;
-  width: 20%;
-}
-
-.right-copyright span {
-  font-size: .8rem;
-}
-
-.left-copyright {
-  position: absolute;
-  bottom: 0;
-  left: 20%;
-  width: 20%;
-}
-
-.left-copyright span {
-  font-size: .8rem;
-} */
-
-
-.footer-arrow {
-  position: absolute;
-  bottom: 0;
-  right: 25%;
-  width: 50%;
-}
-
 </style>

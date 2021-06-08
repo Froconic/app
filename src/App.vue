@@ -47,7 +47,7 @@
     color: #EBF4FF;
   }
 
-    .grid {
+  .grid {
     display: grid;
     grid-auto-flow: row;
     grid-gap: 2em;
@@ -58,11 +58,18 @@
   }
 
   @media screen and (min-width:768px) {
-    .grid {
+    .card-grid {
       grid-template-columns: repeat(3, 33%);
       grid-auto-flow: column;
     }
   }
 
-
+  .card-grid {
+    grid-auto-flow: row;
+    grid-gap: 2em;
+    margin: 5rem auto;
+    width: 100%;
+    justify-content: center;
+    align-content: center;
+  }
 </style>
