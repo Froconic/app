@@ -56,9 +56,9 @@
       display: grid;
       align-items: center;
       grid-template-areas:
-        "upper-left upper left . upper-right upper right"
-        ". middle middle middle ."
-        "lower-left lower-left . lower-left lower-right"
+        "upper-left . upper-right "
+        ". middle  ."
+        "lower-left . lower-right"
         "copyright-left arrow-cell copyright-right";
     }
 
@@ -70,7 +70,7 @@
 
     .upper-left-cell {
       grid-area: upper-left;
-      grid-row: 1 / 3;
+      grid-row: 1 / 1;
       grid-column: 1 / 3;
     }
 

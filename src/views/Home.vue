@@ -37,8 +37,10 @@ html {
 }
 
 .section {
-  height: 100%;
-  margin-bottom: 3rem;
+  height: 100vh;
+  margin-bottom: 0;
+  overflow-x: none;
+  overflow-y: scroll;
 }
 
 h1, .h1 {

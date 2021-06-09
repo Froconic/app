@@ -1,54 +1,27 @@
 <template>
-  <b-container fluid id="menu-section" class="section menu-section">
-    <b-container class="grid anchor-grid">
+  <b-container fluid id="footer" class="section anchor-section">
+    <b-container fluid class="anchor-grid">
       <b-container class="upper-left">
-        <b-link class="anchor-link hvr-hang mb-3" href="#services-section">Services</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Services</b-link>
       </b-container>
       <b-container class="upper-right">
-        <b-link class="anchor-link hvr-hang mb-3" href="#services-section">Art</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Art</b-link>
       </b-container>
       <b-container class="middle">
-        <b-link class="anchor-link hvr-hang mb-3" href="#services-section">Blog</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Blog</b-link>
       </b-container>
       <b-container class="lower-left">
-        <b-link class="anchor-link hvr-hang mb-3" href="#services-section">Resource Well</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">Resource Well</b-link>
       </b-container>
       <b-container class="lower-right">
-        <b-link class="anchor-link hvr-hang mb-3" href="#services-section">About</b-link>
+        <b-link class="anchor-link hvr-hang mb-3" to="/">About</b-link>
       </b-container>
       <b-container class="arrow">
-        <b-link href="#blog-section">
-          <b-icon-arrow-down class="anchor-arrow mb-5" font-scale="5"></b-icon-arrow-down>
+        <b-link href="#hero">
+          <b-icon-arrow-up class="anchor-arrow" font-scale="5"></b-icon-arrow-up>
         </b-link>
       </b-container>
     </b-container>
-
-    <!-- <b-row align-v="baseline" align-content="between" cols-sm="2" class="mb-sm-5 anchor-row">
-        <b-col cols=12 w-50 class="px-5 test">
-          <a class="anchor-link hvr-hang mb-3" href="#services-section">Services</a>
-        </b-col>
-        <b-col cols-sm=8>
-          <a class="anchor-link hvr-hang mb-3" href="#art-section">Art</a>
-        </b-col>
-      </b-row>
-      <b-row align-v="baseline" align-h="center" class="mb-sm-5 anchor-row">
-        <b-col>
-          <a class="anchor-link hvr-hang mb-3" href="#blog-section">Blog</a>
-        </b-col>
-      </b-row>
-      <b-row align-v="baseline" align-h="between" cols="1" cols-sm="2" class="mb-3 anchor-row">
-        <b-col cols-sm=8>
-          <a class="anchor-link hvr-hang mb-3" href="#resource-section">Resources</a>
-        </b-col>
-        <b-col cols-sm=8 class="mb-5">
-          <a class="anchor-link hvr-hang mb-3" href="#about-section">About</a>
-        </b-col>
-      </b-row>
-      <b-row align-v="baseline" align-h="center">
-        <b-link href="#blog-section">
-                <b-icon align-self="end" class="anchor-arrow mb-5" icon=arrow-down font-scale=5></b-icon>
-              </b-link>
-      </b-row> -->
   </b-container>
 </template>
 
@@ -166,50 +139,65 @@
   }
 
   .anchor-grid {
-    align-items: center;
-    /* grid-template-columns: repeat(5, 20%); */
-    grid-template-areas:
-      "upper-left . upper-right"
-      ". middle ."
-      " lower-left . lower-right"
-      "arrow arrow arrow ";
+    display: flex;
+    flex-direction: column;
   }
 
-  .upper-left {
-    grid-area: upper-left;
-    grid-column: -6 / 12;
-    grid-row: 1 / 1;
-  }
 
-  .upper-right {
-    grid-area: upper-right;
-    grid-column: 6 / 27;
-    grid-row: 1 / 1;
-  }
 
-  .middle {
-    grid-area: middle;
-    grid-column: 1 / 6;
-    grid-row: 2 / 2;
+  @media screen and (min-width: 768px) {
+    .anchor-grid {
+      display: grid;
+      align-items: center;
+      grid-template-areas:
+        "upper-left . upper-right "
+        ". middle  ."
+        "lower-left . lower-right"
+        "arrow arrow arrow";
+    }
 
-  }
+    .anchor-section {
+      height: 100vh;
+    }
 
-  .lower-left {
-    grid-area: lower-left;
-    grid-column: 1 / 3;
-    grid-row: 3 / 3;
-  }
+    .upper-left {
+      grid-area: upper-left;
+      grid-row: 1 / 1;
+      grid-column: 1 / 3;
+    }
 
-  .lower-right {
-    grid-area: lower-right;
-    grid-column: 3 / 6;
-    grid-row: 3 / 3;
+    .upper-right {
+      grid-area: upper-right;
+      grid-row: 1 / 1;
+      grid-column: 2 / 4;
+    }
 
-  }
+    .middle {
+      grid-area: middle;
+      grid-row: 2 / 4;
+      grid-column: 1 / 4;
+    }
 
-  .arrow {
-    grid-area: arrow;
-    grid-column: 1 / 6;
-    grid-row: 4 / 4;
-  }
+    .lower-left {
+      grid-area: lower-left;
+      grid-row: 4 / 6;
+      grid-column: 1 / 3;
+
+    }
+
+    .lower-right {
+      grid-area: lower-right;
+      grid-row: 4 / 6;
+      grid-column: 2 / 4;
+    }
+
+
+    }
+
+    .arrow {
+      grid-area: arrow;
+      grid-row: 6 / 6;
+      grid-column: 1 / 4;
+    }
+
 </style>
