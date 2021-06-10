@@ -1,5 +1,5 @@
 <template>
-  <b-container id="services-section" class="section services-section">
+  <b-container fluid id="services-section" class="section services-section">
     <b-row align-v="center">
       <b-col>
         <h2>Services</h2>

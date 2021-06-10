@@ -1,75 +1,120 @@
 <template>
-  <div class="home">
+  <div class="home" id="fullpage">
     <!-- <Navmenu></Navmenu> -->
+    <div class="section fullpage-section">
     <Hero></Hero>
+    </div>
+    <div class="section fullpage-section">
     <Anchormenu></Anchormenu>
+    </div>
+    <div class="section fullpage-section">
     <Blogsection></Blogsection>
+    </div>
+    <div class="section fullpage-section">
     <Artsection></Artsection>
+    </div>
+    <div class="section fullpage-section">
     <Servicessection></Servicessection>
+    </div>
+    <div class="section fullpage-section">
     <Resourcesection></Resourcesection>
+    </div>
+    <div class="section fullpage-section">
     <Aboutsection></Aboutsection>
+    </div>
+    <div class="section fullpage-section">
     <Footer></Footer>
+    </div>
   </div>
 </template>
 
 <script>
   // @ is an alias to /src
-import Hero from '../components/Hero.vue'
-import Navmenu from '../components/Nav-menu.vue'
-import Anchormenu from '../components/Anchor-menu.vue'
-import Blogsection from '../components/Blog-section.vue'
-import Artsection from '../components/Art-section.vue'
-import Servicessection from '../components/Services-section.vue'
-import Resourcesection from '../components/Resources-section.vue'
-import Aboutsection from '../components/About-section.vue'
-import Footer from '../components/Footer.vue'
+  import Hero from '../components/Hero.vue'
+  import Navmenu from '../components/Nav-menu.vue'
+  import Anchormenu from '../components/Anchor-menu.vue'
+  import Blogsection from '../components/Blog-section.vue'
+  import Artsection from '../components/Art-section.vue'
+  import Servicessection from '../components/Services-section.vue'
+  import Resourcesection from '../components/Resources-section.vue'
+  import Aboutsection from '../components/About-section.vue'
+  import Footer from '../components/Footer.vue'
   export default {
     name: 'Home',
-    components: {Hero, Navmenu, Anchormenu, Blogsection, Artsection, Servicessection, Resourcesection, Aboutsection, Footer}
+    components: {
+      Hero,
+      Navmenu,
+      Anchormenu,
+      Blogsection,
+      Artsection,
+      Servicessection,
+      Resourcesection,
+      Aboutsection,
+      Footer
+    }
   }
 </script>
 
 <style>
+  html {
+    scroll-behavior: smooth;
+  }
+
+  .section {
+    height: 100vh;
+    width: 100vw;
+    margin-bottom: 0;
+    overflow-x: none;
+    overflow-y: scroll;
+  }
+
+  .section ::-webkit-scrollbar {
+    display: none;
+  }
+
+  .fullpage-section {
+    padding: 3rem;
+  }
+
+  h1,
+  .h1 {
+    font-weight: 700;
+  }
+
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    color: #000a14;
+    font-family: 'Overlock', cursive;
+  }
+
+  a {
+    font-family: 'Overlock', sans-serif;
+    font-weight: 700;
+    color: #000a14;
+  }
+
+  .anchor-arrow {
+    position: relative;
+    bottom: 0;
+    color: #000A14;
+    font-size: 1rem;
+    height: 100%;
+  }
 
 
-html {
-  scroll-behavior: smooth;
-}
-
-.section {
-  height: 100vh;
-  margin-bottom: 0;
-  overflow-x: none;
-  overflow-y: scroll;
-}
-
-h1, .h1 {
-  font-weight: 700;
-}
-
-.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
-  color:#000a14;
-  font-family: 'Overlock', cursive;
-}
-
-a {
-  font-family: 'Overlock', sans-serif;
-  font-weight: 700;
-  color:#000a14;
-}
-
-.anchor-arrow {
-  position: relative;
-  bottom: 0;
-  color:#000A14;
-  font-size: 1rem;
-  height: 100%;
-}
-
-
-.anchor-arrow:hover {
-  color:#F4F5F6;
-}
+  .anchor-arrow:hover {
+    color: #F4F5F6;
+  }
 
   .card {
     background: rgba(0, 0, 0, 0.15);
@@ -116,5 +161,4 @@ a {
   .col {
     height: 100%;
   }
-
 </style>

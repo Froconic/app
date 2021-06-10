@@ -39,9 +39,9 @@
 </script>
 
 <style>
-  .section.footer-section {
+  /* .section.footer-section {
     height: 40vh;
-  }
+  } */
 
   .footer-grid {
     display: grid;

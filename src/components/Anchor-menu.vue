@@ -1,5 +1,5 @@
 <template>
-  <b-container fluid id="footer" class="section anchor-section">
+  <b-container fluid id="menu-section" class="section anchor-section">
     <b-container fluid class="anchor-grid">
       <b-container class="upper-left">
         <b-link class="anchor-link hvr-hang mb-3" to="/">Services</b-link>
@@ -17,8 +17,8 @@
         <b-link class="anchor-link hvr-hang mb-3" to="/">About</b-link>
       </b-container>
       <b-container class="arrow">
-        <b-link href="#hero">
-          <b-icon-arrow-up class="anchor-arrow" font-scale="5"></b-icon-arrow-up>
+        <b-link href="#blog-section">
+          <b-icon-arrow-down class="anchor-arrow" font-scale="5"></b-icon-arrow-down>
         </b-link>
       </b-container>
     </b-container>

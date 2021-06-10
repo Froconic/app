@@ -1,6 +1,6 @@
 <template>
   <div id="hero" class=mb-5>
-    <b-container class="section hero-section mb-5">
+    <b-container fluid class="section hero-section mb-5">
       <b-row>
         <b-col>
           <b-row align-v=start class="p-2 mt-2">

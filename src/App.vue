@@ -4,6 +4,11 @@
   </div>
 </template>
 
+<script>
+export default {
+  
+}
+</script>
 
 <style>
   @font-face {
@@ -22,7 +27,9 @@
     background-color: #2388ff;
     font-family: 'Work Sans', sans-serif;
     height: 100vh;
-    overflow-y:hidden;
+    width: 100vw;
+    overflow-y: hidden;
+    overflow-x: none;
   }
 
   a {

@@ -1,5 +1,5 @@
 <template>
-  <b-container id="art-section" class="section art-section">
+  <b-container fluid id="art-section" class="section art-section">
     <b-row class="mb-5" align-h=center>
       <b-col>
         <h2>Art</h2>
